@@ -1,0 +1,660 @@
+/* Nicholas MacFarland
+     03/04/20
+     CSIS 474-B01
+     
+     Description:
+        This is the style sheet of each pages "divs", as well as setting
+            up the background image to the tennis background of each page.
+*/
+
+/* Add a black background color to the top navigation */
+.title
+{
+    position:relative;
+    text-align: center;
+    font-size: 500%;
+    color: #7FFF00;
+    text-decoration: none;
+    
+}
+
+/* This is the image above the information about the site */
+.HomePageImg1
+{
+    width:30%;
+    height:80px;
+    display: block;
+    margin-top:auto;
+    margin-left:auto;
+    margin-right:auto;
+    
+    justify-content: center;
+    
+}
+
+.HomePageImg1 img
+{
+    width: 100%;
+    height: auto;
+}
+
+        /* This is the header that gives the title of the about description below the centered image on the "Home" page. */
+h1
+{
+    position: relative;
+    color:chocolate;
+    text-decoration: none;
+    /*margin: 360px;*/
+    margin-top:300px;
+    text-align: center;
+}
+        /* This is the description about the site that is found on the "Home" page. */
+.message p
+{
+    position:relative;
+    background-color: #666600;
+    color: #FFFFFF;
+    border-style: double;
+    width:30%;
+    height:80px;
+    display: block;
+    /*    margin:-340px;*/
+    margin-top:-10px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;    
+    font-size: 120%;
+}
+        /* This is the horizontal line that splits the title of the about section, with the paragraph
+            of about the site.                                                                          */
+.hr1
+{
+    display: block;
+    margin-top:-335px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    width:-350px;
+}
+
+.shop_side_note
+{
+    position:relative;
+    width:45%;
+
+    color:white;
+    border-style:double;
+    background: #666600;
+
+    
+    display: block;
+    margin-left: auto;
+    margin-right: 380px;
+	
+    text-align: center;
+
+}
+                                /* Beginning of Mens Apparel Box */
+
+.ShopTitle_1
+{
+    background-color:chocolate;
+    margin: 50px;
+    text-align: center;
+    border: double;
+    
+}
+
+
+
+.MensApparelBox
+{
+	
+    position:relative;
+    width:30%;
+
+    color:white;
+    border-style:double;
+    background: #666600;
+    margin: 30px;
+	
+    
+
+	
+    /*
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    */
+    
+    text-align: center;
+}
+
+
+.MenShorts1
+{
+    
+    width: 200px;
+    height: 120px;
+    /*margin:70px;*/
+    margin:20px;
+    margin-top:10px;
+}
+
+.MenShorts1 img
+{
+    width: 100%;
+    height: auto;
+}
+
+.MenShorts2
+{
+    
+    width: 200px;
+    height: 120px;
+
+    margin:240px;
+    margin-top:-140px;
+}
+
+.MenShorts2 img
+{
+    width: 75%;
+    height: auto;
+}
+
+
+.MenShirts1
+{
+    width: 200px;
+    height: 210px;
+
+    margin:30px;
+    margin-top:-10px;
+}
+.MenShirts1 img
+{
+    width: 75%;
+    height: auto;
+}
+
+.MenShirts2
+{
+    width: 200px;
+
+
+    margin:240px;
+    margin-top:-270px;
+}
+.MenShirts2 img
+{
+    width: 60%;
+    height: auto;
+}
+
+.MenShoes1
+{
+    width: 200px;
+
+
+    margin:30px;
+    margin-top:-210px;
+}
+.MenShoes1 img
+{
+    width: 60%;
+    height: auto;
+}
+
+.MenShoes2
+{
+    width: 200px;
+
+
+    margin:240px;
+    margin-top:-220px;
+}
+.MenShoes2 img
+{
+    width: 80%;
+    height: auto;
+}
+
+                                        /* Ending of Mens Apparel Box */
+
+.hr3
+{
+    display: block;
+    margin-left: auto;
+    margin-right: 480px;
+    justify-content: center;
+    width:470px;
+}
+
+                                /* Beginning of Womens Apparel Box */
+
+.ShopTitle_2
+{
+    background-color:chocolate;
+    margin: 50px;
+    text-align: center;
+    border: double;
+    
+}
+
+
+
+.WomensApparelBox
+{
+	
+    position:relative;
+    width:27%;
+
+    color:white;
+    border-style:double;
+    background: #666600;
+    float: right;
+    margin:22px;
+    margin-top: -1200px;
+	
+	
+	
+    /*
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    */
+    
+    text-align: center;
+}
+
+.WomenSkirtAndTanktop1
+{
+    
+    width: 200px;
+    height: 250px;
+    /*text-align: center;*/
+    /*margin:70px;*/
+    margin:20px;
+    margin-top:-30px;
+}
+
+.WomenSkirtAndTanktop1 img
+{
+    width: 80%;
+    height: auto;
+}
+
+.WomenSkirt2
+{
+    
+    width: 170px;
+    height: 300px;
+    /*text-align: center;*/
+    /*margin:70px;*/
+    margin:220px;
+    margin-top:-240px;
+}
+
+.WomenSkirt2 img
+{
+    width: 100%;
+    height: auto;
+}
+
+.WomenTanktop1
+{
+    
+    width: 170px;
+    height: 300px;
+    /*text-align: center;*/
+    /*margin:70px;*/
+    margin:30px;
+    margin-top:-230px;
+}
+
+.WomenTanktop1 img
+{
+    width: 80%;
+    height: auto;
+}
+
+.WomenTanktop2
+{
+    
+    width: 170px;
+    height: 300px;
+    /*text-align: center;*/
+    /*margin:70px;*/
+    margin:220px;
+    margin-top:-285px;
+}
+
+.WomenTanktop2 img
+{
+    width: 80%;
+    height: auto;
+}
+
+.WomenShoes1
+{
+    
+    width: 170px;
+    height: 200px;
+    /*text-align: center;*/
+    /*margin:70px;*/
+    margin:30px;
+    margin-top:-260px;
+}
+
+.WomenShoes1 img
+{
+    width: 80%;
+    height: auto;
+}
+
+.WomenShoes2
+{
+    
+    width: 170px;
+    height: 200px;
+    /*text-align: center;*/
+    /*margin:70px;*/
+    margin:220px;
+    margin-top:-230px;
+}
+
+.WomenShoes2 img
+{
+    width: 80%;
+    height: auto;
+}
+                                /* Ending of Women Apparel Box */
+
+
+                                /* Beginning of Tennis Accessories */
+.ShopTitle_3
+{
+    background-color:chocolate;
+    margin: 50px;
+    text-align: center;
+    border: double;
+    
+}
+
+.TennisAccessoriesBox
+{
+	
+    position:relative;
+    width:27%;
+
+    color:white;
+    border-style:double;
+    background: #666600;
+
+    margin-top: -1200px;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: 510px;
+    justify-content: center;
+	
+    text-align: center;
+}
+
+.TennisAccessory1
+{
+    
+    width: 200px;
+    height: 280px;
+    margin:10px;
+    margin-top:10px;
+
+
+}
+
+.TennisAccessory1 img
+{
+    width: 60%;
+    height: auto;
+}
+
+.TennisAccessory2
+{
+    
+    width: 200px;
+    height: 280px;
+    margin:200px;
+    margin-top:-290px;
+
+
+}
+
+.TennisAccessory2 img
+{
+    width: 60%;
+    height: auto;
+}
+
+.TennisAccessory3
+{
+    
+    width: 200px;
+    height: 280px;
+    margin:10px;
+    margin-top:-220px;
+}
+
+.TennisAccessory3 img
+{
+    width: 40%;
+    height: auto;
+}
+
+.TennisAccessory4
+{
+    
+    width: 200px;
+    height: 280px;
+    margin:200px;
+    margin-top:-253px;
+
+
+}
+
+.TennisAccessory4 img
+{
+    width: 60%;
+    height: auto;
+}
+
+.TennisAccessory5
+{
+    
+    width: 200px;
+    height: 280px;
+    margin:10px;
+    margin-top:-260px;
+}
+
+.TennisAccessory5 img
+{
+    width: 60%;
+    height: auto;
+}
+
+.TennisAccessory6
+{
+    
+    width: 200px;
+    height: 280px;
+    margin:200px;
+    margin-top:-290px;
+
+
+}
+
+.TennisAccessory6 img
+{
+    width: 60%;
+    height: auto;
+}
+
+                                        /* Ending of Tennis Accessory Box */
+.checkout_div
+{
+	position:relative;
+    width:70%;
+
+    color:white;
+    border-style:double;
+    background: #666600; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	
+    text-align: center;
+	
+}										
+										
+										/* Div Shop submit button */
+.div_shop_submit_button
+{
+	    position:relative;
+    width:27%;
+
+    color:white;
+    border-style:double;
+    background: #666600;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: 510px;
+    justify-content: center;
+	
+    text-align: center;
+}
+                                /* This is the css style for the "LOG IN" screen */
+.CreateLogInUser
+{
+    position:relative;
+    width:30%;
+    height:20%;
+    border-style:double;
+    background: #666600;
+    color:white;
+    margin: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.ExistingLoginUser
+{
+    position:relative;
+    border-style:double;
+    background: #666600;
+    color:white;
+    width:30%;
+    height:50%;
+    margin: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+}
+                    /* This is the end of the "LOG IN" screen */
+
+                            /* Beginning of Contact box screen */
+
+.contactInfo
+{
+    border-style:double;
+    background: #666600;
+    color:white;
+    
+    width:30%;
+    height:20%;
+    margin: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+    
+}
+textarea
+{
+
+    width:430px;
+    resize: none;
+}
+
+                    /* Ending of Contact box screen */
+
+                    /* Beginning of Shopping Cart Box */
+
+.ShoppingCartBox
+{
+    border-style:double;
+    background: #666600;
+    color:white;
+    
+    width:70%;
+    height:20%;
+    margin: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+}
+                    /* Ending of the Shopping Cart Box */
+.hr1 hr
+{
+    margin:240px;
+}
+
+					/*This is the log in confirmation div tag from log in confirmation page */
+.log_in_confirmation h1
+{
+    border-style:double;
+    background: #666600;
+    color:white;
+    width:50%;
+    margin: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+}
+.error_msg
+{
+	text-align:center;
+}
+.acct_created
+{
+	text-align:center;
+}
+
+body 
+{
+    background-image: url("Photos/tennisBackGround3.jpg");
+}
+
+.footer
+{
+	text-align:center;
+	background-color: #666600;
+	border-style:double;
+	color: white;
+	border-radius: 15px 15px 15px 15px;
+	
+}

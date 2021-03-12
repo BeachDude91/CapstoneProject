@@ -1,0 +1,44 @@
+/* Nicholas MacFarland
+     03/04/20
+     CSIS 474-B01
+     
+     Description:
+        This is the style sheet for the top menu of each page.
+*/
+
+.topnav 
+{
+  
+  background-color: #666600;
+  overflow: hidden;
+  padding: 20px;
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a 
+{
+  position:relative;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 84px;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 20px;
+  font-size: 150%;
+  font-family:monospace;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover 
+{
+  position: relative;
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active 
+{
+  background-color: chocolate;
+}
